@@ -64,7 +64,3 @@ function print(ip, geo, program) {
 		console.log('\t' + 'Coordinates'.green + ': %s:%s', geo.ll[0], geo.ll[1]);
 	}
 }
-
-/*
-var geo = geoip.lookup(req.ip) || geoip.lookup('115.84.64.0');
-iso3166.country(geo.country).name,*/
